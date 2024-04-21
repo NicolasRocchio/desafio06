@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Afiliacion</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Vení al Gym!
+        <img src="/imgs/biceps.webp" />
+      </h1>
+
+      <form action="">
+        <fieldset>
+          <legend>
+            <img
+              src="/imgs/levantar-la-mano.webp"
+              alt="hombre levantando la mano emoji"
+              title="hombre levantando la mano emoji"
+            />Datos Personales
+            <img src="/imgs/ojos.webp" />
+          </legend>
+          <div class="campo">
+            <label for="lbl-nombre">Nombre:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-nombre"
+              name="nombre"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-apellido">Apellido:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-apellido"
+              name="apellido"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-documento">Documento:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-documento"
+              name="documento"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-nacionalidad">Nacionalidad:*</label>
+          </div>
+          <div class="campo">
+            <select name="valor-opcion" id="" class="campo-blank" required>
+              <option value="opcion-1">-Seleccionar-</option>
+              <option value="opcion-1">Argentina</option>
+              <option value="opcion-2">Brasileña</option>
+              <option value="opcion-3">Uruaguaya</option>
+              <option value="opcion-4">Otra</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="lbl-descripcion">Contanos un poco de vos...</label>
+          </div>
+          <div class="campo">
+            <textarea
+              name="info"
+              id="lbl-descripcion"
+              cols="30"
+              rows="10"
+              class="campo-blank"
+            ></textarea>
+          </div>
+          <div class="campo">
+            <p>Sexo:*</p>
+          </div>
+          <div class="campo">
+            <label for="masculino">Masculino</label>
+            <input
+              type="radio"
+              id="masculino"
+              name="sexo"
+              value="masculino"
+              required
+            />
+
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="sexo" value="femenino" />
+
+            <label for="otros">Otros</label>
+            <input type="radio" id="otros" name="sexo" value="otros" />
+          </div>
+        </fieldset>
+
+        <div class="divisor">
+          <p>...........</p>
+        </div>
+
+        <fieldset>
+          <legend>
+            <img src="/imgs/foldable-phone.webp" />Datos de Contacto
+            <img src="/imgs/sobre.webp" />
+          </legend>
+          <div class="campo">
+            <label for="lbl-nombre">Telefono: </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-nombre"
+              name="nombreombre"
+              class="campo-blank"
+              placeholder="Código de área y número"
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-email">Direccion de correo electronico:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="email"
+              id="lbl-email"
+              name="email"
+              class="campo-blank"
+              placeholder="Ej: mail@gmail.com"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <div class="divisor">
+          <p>...........</p>
+        </div>
+
+        <fieldset>
+          <legend>
+            <img src="/imgs/ciclo.webp" />Actividades
+            <img src="/imgs/corriendo.webp" />
+          </legend>
+          <p class="act-p">
+            Por favor, indica cuàles actividades te interesan.
+          </p>
+          <p>Sede Palermo:</p>
+          <label for="basquet">Básquet</label>
+          <input
+            type="checkbox"
+            id="basquet"
+            name="deporte-1"
+            value="basquet"
+          />
+
+          <label for="boxeo">Boxeo</label>
+          <input type="checkbox" id="boxeo" name="deporte-2" value="boxeo" />
+
+          <label for="futbol">Fútbol</label>
+          <input type="checkbox" id="futbol" name="deporte-3" value="futbol" />
+
+          <label for="tenis">Tenis</label>
+          <input type="checkbox" id="tenis" name="deporte-4" value="tenis" />
+
+          <p>Sede Rosario:</p>
+          <label for="basquet">Básquet</label>
+          <input
+            type="checkbox"
+            id="basquet"
+            name="deporte-1"
+            value="basquet"
+          />
+
+          <label for="boxeo">Boxeo</label>
+          <input type="checkbox" id="boxeo" name="deporte-2" value="boxeo" />
+
+          <label for="futbol">Fútbol</label>
+          <input type="checkbox" id="futbol" name="deporte-3" value="futbol" />
+
+          <label for="tenis">Tenis</label>
+          <input type="checkbox" id="tenis" name="deporte-4" value="tenis" />
+        </fieldset>
+
+        <div class="condiciones-novedades">
+          <div>
+            <input
+              type="checkbox"
+              id="condiciones"
+              name="condiciones"
+              value="condiciones"
+              required
+            />
+            <label for="condiciones" class="last-checkbox"
+              >Acepto las condiciones*</label
+            >
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="novedades"
+              name="novedades"
+              value="novedades"
+            />
+            <label for="novedades" class="last-checkbox"
+              >Deseo recibir novedades</label
+            >
+          </div>
+
+          <p class="last-checkbox">*:campo obligatorio.</p>
+        </div>
+
+        <div class="boton">
+          <button class="iniciar">Iniciar afiliacion</button>
+          <button class="restablecer">Restablecer</button>
+        </div>
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

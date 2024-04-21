@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afiliacion</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Vení al Gym!
+        <img src="/imgs/biceps.webp" />
+      </h1>
+
+      <form action="">
+        <fieldset>
+          <legend>
+            <div class="title-bar">
+              <div class="title-bar-text">Datos Personales</div>
+              <div class="title-bar-controls"></div>
+            </div>
+          </legend>
+          <div class="campo">
+            <label for="lbl-nombre">Nombre:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-nombre"
+              name="nombre"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-apellido">Apellido:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-apellido"
+              name="apellido"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-documento">Documento:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-documento"
+              name="documento"
+              class="campo-blank"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-nacionalidad">Nacionalidad:*</label>
+          </div>
+          <div class="campo">
+            <select name="valor-opcion" id="lbl-nacionalidad" class="campo-blank" required>
+              <option value="opcion-1">-Seleccionar-</option>
+              <option value="opcion-1">Argentina</option>
+              <option value="opcion-2">Brasileña</option>
+              <option value="opcion-3">Uruaguaya</option>
+              <option value="opcion-4">Otra</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="lbl-descripcion">Contanos un poco de vos...</label>
+          </div>
+          <div class="campo">
+            <textarea
+              name="info"
+              id="lbl-descripcion"
+              cols="55"
+              rows="10"
+              class="campo-blank"
+            ></textarea>
+          </div>
+          <div class="campo">
+            <div class="field-row">Sexo:</div>
+            <div class="field-row">
+              <input id="radio10" type="radio" name="fieldset-example" />
+              <label for="radio10">Maculino</label>
+            </div>
+            <div class="field-row">
+              <input id="radio11" type="radio" name="fieldset-example" />
+              <label for="radio11">Femenino</label>
+            </div>
+            <div class="field-row">
+              <input id="radio12" type="radio" name="fieldset-example" />
+              <label for="radio12">Otros</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="divisor">
+          <p>...........</p>
+        </div>
+
+        <fieldset>
+          <legend>
+            <div class="title-bar">
+              <div class="title-bar-text">Datos de Contacto</div>
+              <div class="title-bar-controls"></div>
+            </div>
+          </legend>
+          <div class="campo">
+            <label for="lbl-nombre">Telefono: </label>
+          </div>
+          <div class="campo">
+            <input
+              type="text"
+              id="lbl-nombre"
+              name="nombreombre"
+              class="campo-blank"
+              placeholder="Código de área y número"
+            />
+          </div>
+          <div class="campo">
+            <label for="lbl-email">Direccion de correo electronico:* </label>
+          </div>
+          <div class="campo">
+            <input
+              type="email"
+              id="lbl-email"
+              name="email"
+              class="campo-blank"
+              placeholder="Ej: mail@gmail.com"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <div class="divisor">
+          <p>...........</p>
+        </div>
+
+        <fieldset>
+          <legend>
+            <div class="title-bar">
+              <div class="title-bar-text">Actividades</div>
+              <div class="title-bar-controls"></div>
+            </div>
+          </legend>
+          <p>Por favor, indica cuàles actividades te interesan.</p>
+
+          
+            <p>Sede Palermo:</p>
+              <div class="sedes">
+                <input
+                type="checkbox"
+                id="deporte-1"
+                name="deporte-1"
+                value="basquet"
+                />
+                <label for="deporte-1">Básquet</label>
+                
+                <input
+                type="checkbox"
+                id="deporte-2"
+                name="deporte-2"
+                value="boxeo"
+                />
+                <label for="deporte-2">Boxeo</label>
+                
+                <input
+                type="checkbox"
+                id="deporte-3"
+                name="deporte-3"
+                value="futbol"
+                />
+                <label for="deporte-3">Fútbol</label>
+                
+                <input
+                type="checkbox"
+                id="deporte-4"
+                name="deporte-4"
+                value="tenis"
+                />
+                <label for="deporte-4">Tenis</label>
+                
+                <p>Sede Rosario:</p>
+                <div class="sedes">
+                  <input
+                  type="checkbox"
+                  id="deporte-5"
+                  name="deporte-5"
+                  value="basquet"
+                  />
+                  <label for="deporte-5">Básquet</label>
+                  
+                  <input
+                  type="checkbox"
+                  id="deporte-6"
+                  name="deporte-6"
+                  value="boxeo"
+                  />
+                  <label for="deporte-6">Boxeo</label>
+                  
+                  <input
+                  type="checkbox"
+                  id="deporte-7"
+                  name="deporte-7"
+                  value="futbol"
+                  />
+                  <label for="deporte-7">Fútbol</label>
+                  
+                  <input
+                  type="checkbox"
+                  id="deporte-8"
+                  name="deporte-8"
+                  value="tenis"
+                  />
+                  <label for="deporte-8">Tenis</label>
+                </div>
+          
+        </fieldset>
+        <div class="condiciones-novedades">
+          <div>
+            <div>
+              <input
+                type="checkbox"
+                id="condiciones"
+                name="condiciones"
+                value="condiciones"
+                required
+              />
+              <label for="condiciones"
+                >Acepto las condiciones*</label
+              >
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="novedades"
+                name="novedades"
+                value="novedades"
+              />
+              <label for="novedades"
+                >Deseo recibir novedades</label
+              >
+            </div>
+
+            <p>*:campo obligatorio.</p>
+          </div>
+
+          <div>
+            <button class="submit">Iniciar afiliacion</button>
+            <button class="reset">Restablecer</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afiliacion</title>
+  </head>
+  <body>
+    <h1 class="glow text red glitched">VENI AL GYM!</h1>
+    <form action="">
+      
+      <fieldset>
+        <legend class="glow text blue">Datos Personales</legend>
+          <div>
+            <div class="field">
+              <label class="glow text">Nombre:*</label>
+              <input type="text" required/>
+            </div>
+            <div class="field">
+              <label class="glow text" >Nacionalidad:*</label>
+              <select required>
+                <option value="opcion-1">-Seleccionar-</option>
+                <option value="opcion-2">Argentina</option>
+                <option value="opcion-3">Brasileña</option>
+                <option value="opcion-4">Uruaguaya</option>
+                <option value="opcion-5">Otros</option>
+              </select>
+            </div>
+          </div>
+          <div >
+            <div class="field">
+              <label class="glow text">Apellido:*</label>
+              <input type="text" required/>
+            </div>
+
+            <div class="field">
+              <label class="glow text">Documento:*</label>
+              <input type="text" required/>
+            </div>
+
+            <div class="contanos">
+              <div>
+              <label class="glow text" for="lbl-descripcion">Contanos un poco de vos...</label>
+            </div>
+            <div>
+              <textarea name="info" id="lbl-descripcion" cols="50" rows="10"></textarea>
+            </div>
+            </div>
+
+            
+
+            <div class="contanos">
+              <label class="glow text">Sexo:</label>
+              <label for="masculino" class="glow text">Masculino</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino"/>
+  
+              <label for="femenino" class="glow text">Femenino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino" />
+  
+              <label for="otros" class="glow text">Otros</label>
+                <input type="radio" id="otros" name="sexo" value="otros" />
+            </div>
+          </div>
+      </fieldset>
+
+      <hr class="glow glitch" />
+      
+      <fieldset>
+        <legend class="glow text blue">Datos de Contacto</legend>
+        <div class="green field">
+          <label class="glow text">Télefono:</label>
+            <input type="text" placeholder="Cod. de área y número" />
+        </div>
+        <div class="green field">
+          <label class="glow text">Direccion de correo electrónico:*</label>
+            <input type="email" placeholder="Ej: mail@gmail.com" required/>
+        </div>
+      </fieldset>
+
+      <hr class="glow glitch" />
+
+      <fieldset>
+        <legend class="glow text blue">Actividades</legend>
+        <div >          
+          <p class="glow text green">Por favor, indica cuáles actividades te interesan.</p>
+          <div class="hoverable green">
+            <div class="glow text">
+              <strong> Sede Palermo: </strong>
+            </div>
+            <div class="glow">
+              <div>
+                <div>
+                <label for="basquet"><strong>BASQUET</strong></label>
+                <input type="checkbox" class="glow text" id="basquet" name="deporte-1" value="basquet">
+              </div>
+              <div>
+                <label for="boxeo"><strong>BOXEO</strong></label>
+                  <input type="checkbox" class="glow text" id="boxeo" name="deporte-2" value="boxeo">
+              </div>
+              <div>
+                <label for="futbol"><strong>FUTBOL</strong></label>
+                  <input type="checkbox" class="glow text" id="futbol" name="deporte-3" value="futbol">
+              </div>
+              <div>
+                <label for="tenis"><strong>TENIS</strong></label>
+                  <input type="checkbox" class="glow text" id="tenis" name="deporte-3" value="tenis">
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hoverable green">
+            <div class="glow text">
+              <strong> Sede Rosario: </strong>
+            </div>
+            <div class="glow">
+              <div>
+                <label for="basquet"><strong>BASQUET</strong></label>
+                <input type="checkbox" class="glow text" id="basquet" name="deporte-1" value="basquet">
+              </div>
+              <div>
+                <label for="boxeo"><strong>BOXEO</strong></label>
+                  <input type="checkbox" class="glow text" id="boxeo" name="deporte-2" value="boxeo">
+              </div>
+              <div>
+                <label for="futbol"><strong>FUTBOL</strong></label>
+                  <input type="checkbox" class="glow text" id="futbol" name="deporte-3" value="futbol">
+              </div>
+              <div>
+                <label for="tenis"><strong>TENIS</strong></label>
+                  <input type="checkbox" class="glow text" id="tenis" name="deporte-3" value="tenis">
+              </div>
+            </div>
+          </div>
+      </fieldset>
+        
+      <div class="condiciones">
+        <div>
+          <input type="checkbox" id="condiciones" name="condiciones" value="condiciones" required/>
+            <label for="condiciones" class="glow text blue">Acepto las condiciones*</label>
+        </div>
+        <div>
+          <input type="checkbox" id="novedades" name="novedades" value="novedades"/>
+            <label for="novedades" class="glow text blue">Deseo recibir novedades</label>
+        </div>
+          <p class="glow text red"> *obligatorio.</p>
+      </div>
+
+      <div>
+        <button class="green">Iniciar Afilicacion</button>
+        <button class="red restablecer">Restablecer</button>
+      </div>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+

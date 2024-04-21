@@ -1,0 +1,79 @@
+body {
+  background-color: #1f2023;
+}
+fieldset {
+  background-color: #a6c1b9;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+legend {
+  background-color: #2b3d37;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 7px;
+  border-radius: 5px;
+}
+h1 {
+  color: #e8eaed;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border: 10px solid #4d6d63;
+  border-left: 10px solid #1f2023;
+  border-right: 10px solid #1f2023;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.last-checkbox {
+  color: white;
+}
+.campo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+button {
+  background-color: #2b3d37;
+  border: 1px solid #46645a;
+  color: #a4b18e;
+  border-radius: 3px;
+  padding: 10px;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+}
+.divisor {
+  color: #a6c1b9;
+  font-size: 100px;
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: -100px;
+}
+.campo-blank {
+  width: 400px;
+}
+::placeholder {
+  text-align: right;
+}
+.act-p {
+  font-size: 14px;
+}
+img {
+  width: 20px;
+  padding: 2px;
+}
+.condiciones-novedades {
+  width: 500px;
+  margin: auto;
+  padding-top: 30px;
+}
+.iniciar {
+  margin-right: 20px;
+}
+input:focus {
+  background-color: #4d6d63;
+}
